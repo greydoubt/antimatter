@@ -1,0 +1,17 @@
+uniform int uPalette;: Selects which color palette or mapping function to use for coloring the fractal/shader output.
+
+
+uniform int uIterations;: Determines the number of iterations for a fractal formula (e.g., Mandelbrot or Julia sets). Higher values increase detail but decrease performance.
+
+
+uniform float uZoom;: Controls the magnification level of the view, allowing the rendering to zoom in or out.
+
+
+uniform float uRotSpeed;: Controls the speed of rotation over time, likely used to animate the scene by rotating the coordinate space.
+
+
+uniform float uMirrorStart;: Defines a threshold or starting point for mirroring/kaleidoscope effects within the shader, creating symmetric patterns.
+
+
+uniform float uScaleDecay;: Controls the rate at which the scale decreases in recursive or fractal formulas, determining how quickly details shrink in each iteration. 
+
